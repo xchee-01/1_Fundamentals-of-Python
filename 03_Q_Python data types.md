@@ -19,6 +19,10 @@ print(f"Patient {patient_name} is being tested for {diagnosis}")
 
 #### 2. Given this code, what happens if you print the type of `expression_value`?
 
+```
+expression_value = '123'
+```
+
   <details>
   <summary>Click to view answer</summary>
 
