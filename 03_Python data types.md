@@ -52,7 +52,7 @@ print(sequence[:3])        # Get first three nucleotides
 
 # Real-world example: DNA Sequence Processing
 dna_sequence = "ATGCTAGCTGACTACGT"
-complement = dna_sequence.replace('A','T').replace('G','C').replace('C','G').replace('T','A')
+complement = dna_sequence.replace('A','x').replace('T','A').replace('x','T').replace('G','y').replace('C','G').replace('y','C')
 print(f"Original: {dna_sequence}")
 print(f"Complement: {complement}")
 ```
