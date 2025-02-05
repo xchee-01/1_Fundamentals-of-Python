@@ -40,7 +40,7 @@
 #### 3. Create a programme that classifies tumor stages (I, II, or III) based on the user's input or tumour size and number of lymph nodes. 
 
 - **Stage I: tumor_size < 2.0 and no lymph node involvement**
-- **Stage II: tumor_size between 2.0 and 5.0 or limited lymph node involvement**
+- **Stage II: tumor_size between 2.0 and 5.0 or limited lymph node involvement (less or equal to 3)**
 - **Stage III: everything else**
 
   <details>
